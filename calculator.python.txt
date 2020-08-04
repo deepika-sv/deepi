@@ -1,0 +1,27 @@
+# Function Definition
+def calculate():
+  print(+)
+  print(-)
+  print(*)
+  print(/)
+  operation = input("Select an operator:n")
+  print("Enter two numbers")
+  number_1 = int(input())
+  number_2 = int(input())
+
+if operation == '+': 
+    print(number_1 + number_2)
+
+  elif operation == '-':
+    print(number_1 - number_2)
+
+  elif operation == '*': 
+    print(number_1 * number_2)
+ 
+  elif operation == '/': 
+    print(number_1 / number_2)
+
+  else:
+    print('Invalid Input')
+
+    calculate()
